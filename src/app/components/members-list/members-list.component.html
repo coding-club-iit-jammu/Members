@@ -1,0 +1,18 @@
+<div class="container" style="padding: 75px 20px;"> 
+    <h3><a href="https://discord.gg/8k2zNQy">Join  Coding Club Discord Server</a></h3>
+  <div class="row">
+    <div class="col s10 offset-s1 m3 card-small" *ngFor="let user of members">
+      <div class="card">
+        <div class="card-image">
+          <img src="{{user['img']}}">
+        </div>
+        <div class="card-content">
+            <span class="card-title">{{user['name']}}</span>
+            <span >{{user['username']}}</span><br>
+            <span >{{user['entry']}}</span><br>
+            
+        </div>
+      </div>
+    </div>
+  </div>   
+</div>
